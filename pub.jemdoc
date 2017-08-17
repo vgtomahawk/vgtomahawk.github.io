@@ -1,0 +1,12 @@
+# jemdoc: menu{MENU.txt}{example.html}, addcss{jemdoc.css}, notime
+= Publications
+
+== Manuscripts
+. *Machine Learning over Cloud : A Secure and Scalable System based on factoring*\n
+	Kartik Gupta, Jonathan Lee, Prateek Jain and Ramarathnam Venkatesan. Submitted to S&P (Oakland), 2017.
+. *Nearly-optimal Robust Matrix Completion*\n
+	Yeshwanth Cherapanamjeri, Kartik Gupta and Prateek Jain. Submitted to AISTATS, 2017. [https://arxiv.org/abs/1606.07315 \[pdf\]]
+
+== Refereed Journal Publications
+. *Lexical State Analyzer for JavaCC grammars*\n
+	Kartik Gupta and V. Krishna Nandivada. In [http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1097-024X Software: Practice and Experience (SPE)], 2015. [http://arxiv.org/abs/1308.3156 \[pdf\]]

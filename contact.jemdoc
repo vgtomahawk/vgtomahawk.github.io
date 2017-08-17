@@ -1,0 +1,4 @@
+# jemdoc: menu{MENU.txt}{example.html}, addcss{jemdoc.css}, notime
+= Contact
+
+Email : `first name'.kailash.`last name'@gmail.com \n

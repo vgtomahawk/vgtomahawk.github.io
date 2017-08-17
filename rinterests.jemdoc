@@ -1,0 +1,17 @@
+# jemdoc: menu{MENU.txt}{example.html}, addcss{jemdoc.css}, notime
+= Research Interests
+
+I am interested in building effective large scale Machine Learning systems. There are two aspects to this problem.
+One from the Machine Learning side and other from the Systems side.\n
+
+From the Machine Learning side we would like to design fast algorithms with theoretical
+guarantees that exploit the characteristics of a system, like parallelism, it will be
+deployed upon or work under the constraints of it, like working with restricted amount of data as in the
+distributed computing scenario or working on encrypted data or working with streaming data.\n
+
+From system design perspective, we would like to know how to design systems to perform large scale
+Machine Learning tasks efficiently. This might involve answering questions like: What are the most
+frequent operations performed while executing a Machine Learning algorithm and how can a system be
+optimized for these operations?\n
+
+I believe expertise in both the areas would be inevitable to build a successful large scale Machine Learning system.
