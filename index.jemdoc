@@ -1,0 +1,19 @@
+# jemdoc: menu{MENU.txt}{example.html}, addcss{jemdoc.css}, notime
+= Kartik Gupta
+
+~~~
+{}{img_left}{Varun_Nandi.png}{Varun Gangal}
+
+I am a Research Fellow with the
+[https://www.microsoft.com/en-us/research/group/machine-learning-and-optimization/ Machine Learning group]
+at [http://research.microsoft.com/en-us/labs/india/ Microsoft Research India]
+where I have been working with [https://www.microsoft.com/en-us/research/people/prajain/ Dr. Prateek Jain]
+and [https://www.microsoft.com/en-us/research/people/venkie/ Dr. Ramarathnam Venkatesan].
+My interests lie at the intersection of Machine Learning and Systems. I am interested in designing algorithms
+for large scale systems (large scale optimization) as well as design aspects of systems for Machine Learning.\n
+
+I graduated with a B.Tech in [http://www.cse.iitm.ac.in/ Compuer Science and Engineering]
+from [https://www.iitm.ac.in/ IIT Madras] in 2015.
+
+Here is a link to my [KartikGupta_Resume.pdf CV].
+~~~
