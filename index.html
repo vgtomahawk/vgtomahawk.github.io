@@ -21,10 +21,10 @@
 <table summary="Table for page layout." id="tlayout">
 <tr valign="top">
 <td id="layout-menu">
-<div class="menu-category">Varun Gangal</div>
+<!--<div class="menu-category">Varun Gangal</div>-->
 <div class="menu-item"><a href="index.html">Home</a></div>
 <!--<div class="menu-item"><a href="rinterests.html">Research&nbsp;Interests</a></div>-->
-<div class="menu-item"><a href="pub.html">Publications</a></div>
+<!--<div class="menu-item"><a href="pub.html">Publications</a></div>-->
 <div class="menu-item"><a href="sced.html">SCDE Dataset</a></div>
 <div class="menu-item"><a href="misc.html">Miscellaneous</a></div>
 <div class="menu-item"><a href="contact.html">Contact</a></div>
@@ -33,31 +33,33 @@
 <div id="toptitle">
 <h1>Varun Gangal</h1>
 </div>
-<table class="imgtable"><tr><td>
-<img src="Varun_NIPS_small.jpg" alt="Varun Gangal" />&nbsp;</td>
-<td align="left"><p>I am a PhD student  with the
+<table class="imgtable"><tr>
+<!--<img src="Varun_NIPS_small.jpg" alt="Varun Gangal" />&nbsp;</td>-->
+<td align="left"><br clear="left"/><p>I'm a PhD student  with the
 <a href="https://www.lti.cs.cmu.edu">Language Technologies Institute</a>
 at <a href="http://www.cmu.edu">CMU</a>,  
 where I am advised by <a href="https://scholar.google.com/citations?user=PUFxrroAAAAJ">Prof. Eduard Hovy</a>. My research is broadly on language generation, with specific interests in <a href="https://www.aclweb.org/anthology/W17-4902.pdf">style transfer</a>, <a href="https://aclweb.org/anthology/P18-1154.pdf">data-to-text generation</a>,  <a href="https://arxiv.org/abs/2104.06669">story and narrative generation</a> and <a href="https://arxiv.org/abs/2010.01794">low-resource</a> &amp; <a href="https://aclanthology.org/D17-1315.pdf">creative generation</a>. 
 </br>
-
-<!--As a natural development  of my interest in <a>low-resource & creative generation</a>, I became increasingly piqued and drawn towards data augmentation methods for generation, first for training generation models, but increasingly, in general, leading to several fruitful research directions:
+<img style="padding: 12px;" src="Varun_AAAI2020_small.jpg" alt="Varun Gangal" align="right"/>&nbsp;
+</br>
+As a natural development  of my interest in low-resource &amp; creative generation, I became increasingly piqued about data augmentation (DA) for generation, leading to several fruitful research directions:
 <ol>
-<li>  
-<li>
-<li>      </li>
-</ol>-->
+<li> <a href="https://aclanthology.org/2020.deelio-1.4.pdf">Devising lightweight DA strategies</a> to finetune conditional generators like GPT-2. </li> 
+<li> <a href="https://aclanthology.org/2021.findings-acl.357.pdf">Augmenting reference sets for dialog generation</a>, improving dialog evaluation via automatic metrics like BLEU for no added cost. </li>
+<li> A comprehensive <a href="https://aclanthology.org/2021.findings-acl.84.pdf">survey</a> on recent DA methods in NLP - we also try sensitizing the NLP community about lacunae, e.g w.r.t CV research, besides outlining challenges for the future</li>
+</ol>
 
-As a corollary of my interest in document-level generation (for stories are documents, after all), some of my work circa 2020 also investigated probing extra-sentential abilities of contextual representations, such as <a href="https://arxiv.org/abs/2010.04098">locating event arguments</a> and <a href="https://www.aclweb.org/anthology/2020.acl-main.502/">infilling whole sentences</a> a.k.a ``sentence cloze".
+<br clear="left"/>
+Corollary of my interest in story-level generation, some of my work circa 2020 also investigated probing extra-sentential abilities of contextual representations, such as <a href="https://arxiv.org/abs/2010.04098">locating event arguments</a> and <a href="https://www.aclweb.org/anthology/2020.acl-main.502/">infilling whole sentences</a> a.k.a ``sentence cloze".
  </br>
 
 <br/>
-In the recent year, I have also been involved in co-organizing many collaborative NLP research efforts - benchmarks, workshops and challenge suites, such as:
+In the recent year, I have also been involved in co-organizing many collaborative NLP research efforts, such as:
 <ol>
-<li> The <a href="https://gem-benchmark.com">GEM benchmark</a>, <a href="https://gem-benchmark.com/workshop">associated workshop @ACL'21</a>, and <a href="https://aclanthology.org/2021.gem-1.10/">paper</a> for better and standardized evaluation and comparison of NLG models and systems - a parallel to GLUE for generation </li>
-<li> I was also specifically involved in the <b>challenge sets</b> submodule of GEM, where we came up with challenge sets under a unified theme for the NLG tasks in our benchmark, using various perturbation [backtranslation], sub-selection [length] and other domain shift [diachronic] strategies. Our <a href="https://openreview.net/forum?id=CSi1eu_2q96">work</a> was accepted @ <a href="https://openreview.net/group?id=NeurIPS.cc/2021/Track/Datasets_and_Benchmarks/Round1">
+<li> The GEM <a href="https://gem-benchmark.com">benchmark</a>, associated <a href="https://gem-benchmark.com/workshop">workshop</a>@ACL'21, and <a href="https://aclanthology.org/2021.gem-1.10/">paper</a> for better and standardized evaluation and comparison of NLG models and systems - a parallel to <a href="https://gluebenchmark.com/tasks">GLUE</a> for generation <br/></li>
+<li> I was also specifically involved in the <b>challenge sets</b> submodule of GEM, where we came up with domain-shifted sets under a unified theme for NLG tasks in our benchmark, using various perturbation [backtranslation], sub-selection [length] and other domain shift [diachronic] strategies. Our <a href="https://openreview.net/forum?id=CSi1eu_2q96">work</a> was accepted @ <a href="https://openreview.net/group?id=NeurIPS.cc/2021/Track/Datasets_and_Benchmarks/Round1">
 NEURIPS'21 Datasets and Benchmarks Track</a>! 
-<li> The upcoming <a href="https://ctrlgenworkshop.github.io">Controllable Generative Modelling in Language and Vision Workshop</a> (CtrlGen) at <b><a href="https://nips.cc">NEURIPS'21</a></b> [Note: We're inviting Submissions for <a href="https://ctrlgenworkshop.github.io/CFP.html">Papers</a> as well as <a href="https://ctrlgenworkshop.github.io/demos.html">Demos</a>! <b> Deadline: September 30th! </b>]
+<li> The upcoming <a href="https://ctrlgenworkshop.github.io">Controllable Generative Modelling in Language and Vision Workshop</a> (CtrlGen) at <b><a href="https://nips.cc">NEURIPS'21</a></b> [Note: We're inviting Submissions for <a href="https://ctrlgenworkshop.github.io/CFP.html">Papers</a> as well as <a href="https://ctrlgenworkshop.github.io/demos.html">Demos</a>!] <p style="color:red;"><b>Deadline: September 30th!</b></p>
 <li> The NL-Augmenter participative <a href="https://github.com/GEM-benchmark/NL-Augmenter">repository</a> and benchmark, which provides a structure for NLPers to contribute and evaluate task-specific data augmentations a.k.a transformations, as well as subset selection strategies a.k.a filters. Our final objective is to create a large, usable suite (<b>close to 100 and counting!</b>) of transformations and filters leveraging wisdom-of-the-crowd - opening the door to more systematic analysis and deployment of data augmentation/robustness evaluation.  
 </ol>
 
@@ -70,7 +72,7 @@ from <a href="https://www.iitm.ac.in/">IIT Madras</a> in 2016. During my final t
 </td></tr></table>
 <div id="footer">
 <div id="footer-text">
-Page generated 2020-04-07, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Page generated 2021-09-10, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
 </td>
